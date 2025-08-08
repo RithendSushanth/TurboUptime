@@ -1,0 +1,17 @@
+{
+  "name": "redstream",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "exports": {
+    "./client": "./index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "redis": "^5.8.0"
+  }
+}
